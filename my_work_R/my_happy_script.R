@@ -8,7 +8,7 @@ library(whisker)
 project_output_dir <- 'my_dir'
 
 dir.create(project_output_dir)
-
+# 
 
 # Get the data from ScienceBase
 mendota_file <- file.path(project_output_dir, 'model_RMSEs.csv')
